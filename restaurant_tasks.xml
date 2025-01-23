@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tasks title="Yelp evaluation">
+  <task id="1">
+      <title>Overall Experience (positive)</title>
+      <detail_level>general</detail_level>
+      <sentiment>positive</sentiment>
+      <description>Reviews should include positive opinions from customers expressing satisfaction or enjoyment of their overall experience. Positive opinions about specific aspects, even if their are several, are not enough. </description>
+      <query>On the whole, it was an excellent experience</query>
+  </task>
+  <task id="2">
+      <title>Overall Experience (negative)</title>
+      <detail_level>general</detail_level>
+      <sentiment>negative</sentiment>
+      <description>Reviews should include negative opinions from customers expressing unsatisfaction regarding their overall experience at the restaurant. Negative opinions about specific aspects, even if their are several, are not enough.</description>
+      <query>On the whole, it was a terrible experience</query>
+  </task>
+  <task id="3">
+    <title>Staff Friendliness (positive)</title>
+    <detail_level>general</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions from customers expressing satisfaction with the friendliness of the staff.</description>
+    <query>The staff were very friendly</query>
+  </task>
+  <task id="4">
+    <title>Staff Unfriendliness (negative)</title>
+    <detail_level>general</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions from customers expressing dissatisfaction or disappointment with the unfriendliness of the staff.</description>
+  <query>The staff were unfriendly and rude</query>
+  </task>
+  <task id="5">
+    <title>Value for Money (positive)</title>
+    <detail_level>general</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Assessment of whether the prices are justified by the quality, service, food, experience etc. The review should mention GOOD/SATISFATORY prices/value for money etc.</description>
+    <query>Prices were cheap and it was great value for money</query>
+  </task>
+  <task id="6">
+    <title>Value for Money (negative)</title>
+    <detail_level>general</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Assessment of whether the prices are justified by the quality, service, food, experience etc. The review should mention EXPENSIVE prices/ bad value for money etc.</description>
+    <query>It was expensive and bad value for money</query>
+  </task>
+ <task id="7">
+    <title>Restaurant Food (positive)</title>
+    <detail_level>general</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions about the food. It can be customers expressing overall satisfaction or more specific aspects like the taste, presentation, quality of the food etc.</description>
+    <query>The food was very good</query>
+  </task>
+ <task id="8">
+    <title>Restaurant Food (negative)</title>
+    <detail_level>general</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions about the food. It can be customers expressing overall dissatisfaction or more specific aspects like the taste, presentation, quality of the food etc.</description>
+    <query>The food was awful</query>
+  </task>
+ <task id="9">
+    <title>Restaurant atmosphere/ambiance (positive)</title>
+    <detail_level>general</detail_level>
+    <sentiment>positive</sentiment>
+        <description>Reviews should include positive opinions from customers expressing satisfaction with the atmosphere, ambance or overall vibe of the restaurant.</description>
+    <query>The restaurant had a great atmosphere</query>
+  </task>
+ <task id="10">
+    <title>Restaurant atmosphere/ambiance (negative)</title>
+    <detail_level>general</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions from customers expressing dissatisfaction with the atmosphere, ambance or overall vibe of the restaurant.</description>
+    <query>The restaurant had a disappointing atmosphere</query>
+  </task>
+ <task id="11">
+    <title>Menu variety (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions from customers expressing satisfaction with the diversity and number of choices offered on the menu/at the restaurant.</description>
+    <query>The menu was varied with many options</query>
+  </task>
+ <task id="12">
+    <title>Menu variety (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions from customers expressing dissatisfaction with the diversity and number of choices offered on the menu/at the restaurant</description>
+    <query>The menu was limited with few options</query>
+  </task>
+ <task id="13">
+    <title>Margarita cocktails (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions from customers expressing enjoyment or satisfaction with the margarita cocktails. Other cocktails or margarita pizzas are not applicable. Liking of more specific aspects like the quality, taste, and presentation of the margarita cocktails are also sufficient.</description>
+    <query>The margarita cocktails were really good</query>
+  </task>
+ <task id="14">
+    <title>Margarita cocktails (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions from customers expressing dilike or dissatisfaction with the margarita cocktails. Other cocktails or margarita pizzas are not applicable. Dislike of more specific aspects like the quality, taste, and presentation of the margarita cocktails are also sufficient.</description>
+    <query>The margarita cocktails were not good at all</query>
+  </task>
+ <task id="15">
+    <title>Staff attentiveness (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions about staff attentiveness or include experiences where the staff demonstrated attentiveness and responsiveness to customers' needs during their visit.</description>
+    <query>The staff were attentive to our needs</query>
+  </task>
+ <task id="16">
+    <title>Staff attentiveness (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions about staff attentiveness or include experiences where the staff ignored customers or demonstrated lack of responsiveness to customers' needs during their visit.</description>
+    <query>The staff were unattentive and we felt neglected</query>
+  </task>
+ <task id="17">
+    <title>Restaurant decor (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>The review should include positive opinions about the restaurant's decor, expressing satisfaction with the ambiance, design, and overall aesthetic appeal of the interior.</description>
+    <query>The decor is tasteful and in good condition</query>
+  </task>
+ <task id="18">
+    <title>Restaurant decor (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>The review should include negative opinions about the restaurant's decor, detailing dissatisfaction or disappointment with the condition, ambiance or overall aesthetic of the interior.</description>
+    <query>The decor is ugly and could use a renovation</query>
+  </task>
+ <task id="19">
+    <title>Desserts (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions about the desserts served at the restaurant. It could be overall liking but also more specific aspects such as the taste, presentation, and quality of the desserts are sufficient.</description>
+    <query>The desserts were delightful</query>
+  </task>
+ <task id="20">
+    <title>Desserts (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions about the desserts served at the restaurant. It could be overall dislike but also more specific aspects such as the taste, presentation, and quality of the desserts are sufficient.</description>
+    <query>The desserts were a big disappointment</query>
+  </task>
+ <task id="21">
+    <title>Portion sizes (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions about the portion sizes of the dishes served at the restaurant. Customers should express satisfaction with the quantity or value of the food portions.</description>
+    <query>I was satsfied with the portion size</query>
+  </task>
+ <task id="22">
+    <title>Portion sizes (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions about the portion sizes of the dishes served at the restaurant. Customers should express dissatisfaction with the quantity or value of the food portions..</description>
+    <query>I was dissatisfied with the portion size</query>
+  </task>
+ <task id="23">
+    <title>Restaurant outdoor seating (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions about the restaurant's outdoor seating area. Customers could e.g. express liking with the ambiance, setting, and experience of dining outdoors.</description>
+    <query>The outdoor seating area is fantastic</query>
+  </task>
+ <task id="24">
+    <title>Noise level (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions about the restaurant's noise level being too loud</description>
+    <query>The noise level is too loud for comfort</query>
+  </task>
+ <task id="25">
+    <title>Date night suitability (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews could directly describe the restaurant for dates or highlight aspects of the restaurant that make it suitable for a romantic date night e.g. a romantic setting or atmosphere.</description>
+    <query>The restaurant is perfect for a romantic date night</query>
+  </task>
+ <task id="26">
+    <title>Vegetarian options (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should address negative aspects related to the limited availability of vegetarian options at the restaurant.</description>
+    <query>There are not a lot of options for vegeterians</query>
+  </task>
+ <task id="27">
+    <title>Family suitability (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews could directly describe the restaurant as suitable for families/children or highlight aspects of the restaurant/dining experience that makes it family friendly.</description>
+    <query>The restaurant is great for families with children</query>
+  </task>
+ <task id="28">
+    <title>Waiting times for table(negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include accounts of long waiting times to get a table or be allowed to be seated at the restaurant.</description>
+    <query>We had to wait for a long time to get a table</query>
+  </task>
+ <task id="29">
+    <title>Brunch offering (positive)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions about the brunch offerings at the restaurant. Customers should express satisfaction with the quality, variety, and overall experience of the brunch.</description>
+    <query>The brunch offering is fantastic</query>
+  </task>
+ <task id="30">
+    <title>Food was cold (negative)</title>
+    <detail_level>medium</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should address negative experiences related to receiving cold food at the restaurant.</description>
+    <query>The food was cold when we recevied it</query>
+  </task>
+ <task id="31">
+    <title>Welcoming owner (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should inlude positive experiences or satisfaction with the owner's warm hospitality, friendliness, and welcoming demeanor.</description>
+    <query>The owner was friendly and welcoming</query>
+  </task>
+ <task id="32">
+    <title>Rude owner (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should inlude negative experiences or disappointment with the owner's rude or unfriendly behavior.</description>
+    <query>The owner was rude and unwelcoming</query>
+  </task>
+ <task id="33">
+    <title>Strawberry desert (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive opinions regarding a dessert with strawberry. Other dishes that include strawberry e.g. salads are not relevant.</description>
+    <query>The strawberry dessert was amazing</query>
+  </task>
+ <task id="34">
+    <title>Bad salmon (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should inlude positive opinions regarding a dish with salmon.</description>
+    <query>The salmon was awful</query>
+  </task>
+ <task id="35">
+    <title>Wine knowledge and recommendations (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should express satisfaction with the staff or waiter's expertise in wine, the ability to explain the wine menu OR in the quality of wine recommendations provided.</description>
+    <query>The staff has superb wine knowledge and can provide great wine recommendations</query>
+  </task>
+ <task id="36">
+    <title>Accessibility for people with disabilities (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should positively describe how the restaurant is accessible for people with disabilities or how the staff made an effort to be accomodating.</description>
+    <query>Good accessibility for people with disabilities</query>
+  </task>
+ <task id="37">
+    <title>Accomodating for food allergies (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>The review should highlight how well the restaurant handled accomodations for food allergies and special dietary needs such as lactose, gluten etc.</description>
+    <query>They were very accommodating of my food allergies</query>
+  </task>
+ <task id="38">
+    <title>Restaurant odor (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should address negative experiences related to a bad smell in the restaurant. A dish smelling bad is not relevant if it does not smell throughout the whole restaurant.</description>
+    <query>The inside of the restaurant smelled really bad</query>
+  </task>
+ <task id="39">
+    <title>Perfectly cooked steak (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should include positive experiences regarding perfectly cooked steak e.g. satisfaction with the preparation, flavor, and doneness of the steak</description>
+    <query>The steak was perfecly cooked</query>
+  </task>
+ <task id="40">
+    <title>Table reservation handling (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should address negative experiences related to the handling of table reservations. For example issues encountered during the reservation process or upon arrival such as not getting a table despite a reservation.</description>
+    <query>Our table reservation was not handled properly</query>
+  </task>
+ <task id="41">
+    <title>Relaxing atmosphere (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should highlight the calm and inviting ambiance of the restaurant.</description>
+    <query>The atmosphere was calm and relaxing</query>
+  </task>
+ <task id="42">
+    <title>Annoying music (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should address negative experiences related to an annoying music or dislike towards the music.</description>
+    <query>The music disturbed our experience</query>
+  </task>
+ <task id="43">
+    <title>Great sushi (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should highlight positive opinions regarding the sushi.</description>
+    <query>The sushi was really good</query>
+  </task>
+ <task id="44">
+    <title>Family unsuitability (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews could directly describe the restaurant as UNSUITABLE for families/children or highlight aspects of the restaurant/dining experience that makes it family unfriendly.</description>
+    <query>The restaurant is not good for families with children</query>
+  </task>
+ <task id="45">
+    <title>No soap in the bathroom (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should highlight experiences of the no soap or empty soap in the bathrooms.</description>
+    <query>There was no hand soap in the bathroom</query>
+  </task>
+ <task id="46">
+    <title>Dirty cutlery OR plates (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should highlight negative opinions/experiences regarding the cleanliness of the cutlery OR plates.</description>
+    <query>The cutlery and plates were not properly cleaned</query>
+  </task>
+ <task id="47">
+    <title>Close AND free parking (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews should highlight positive opinions/experiences regarding the proximity AND free cost of parking near the restaurant.</description>
+    <query>Free parking is available close to the restaurant</query>
+  </task>
+ <task id="48">
+    <title>Too hot in restaurant (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinios/experiences about the temperature being too hot inside the restaurant.</description>
+    <query>It was too hot inside the restaurant</query>
+  </task>
+ <task id="49">
+    <title>Dog friendly (positive)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>positive</sentiment>
+    <description>Reviews could directly describe the restaurant as allowing for dogs or highlight aspects of the restaurant/dining experience that makes it dog friendly.</description>
+    <query>The restaurant allows you to bring your dog</query>
+  </task>
+ <task id="50">
+    <title>Wait between courses (negative)</title>
+    <detail_level>specific</detail_level>
+    <sentiment>negative</sentiment>
+    <description>Reviews should include negative opinions/experiences related to having to wait too long between courses during the meal.</description>
+    <query>The wait time between courses was too long</query>
+  </task>
+</tasks>
